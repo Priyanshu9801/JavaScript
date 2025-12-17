@@ -1,2 +1,2 @@
 # JavaScript
-This is a GitHub repository to store all the codes I write in JavaScript language. 
+This is a GitHub repository to store all the codes I will write in JavaScript language. 
