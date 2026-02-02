@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 2, 30);
+}
+
+.navbar{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inputBox{
+    outline: none;
+    height: 7vh;
+    width: 60vw;
+    border: 1px solid rgb(71, 70, 70);
+    background-color: rgb(3, 2, 30);
+    border-radius: 15px;
+    font-size: medium;
+}
+
+.buttons{
+    height: 7vh;
+    width: 10vw;
+    border: 1px solid rgb(71, 70, 70);
+    border-radius: 15px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes li{
+    position: relative;
+    margin-left: 40px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 95%;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.done-btn{
+    position: absolute;
+    left: 75%;
+    top: -24%;
+    
+
+}
+
+.remove-btn{
+    position: absolute;
+    left: 87%;
+    top: -24%;
+}
+
+
+
+
